@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<HTML>
+
+<TITLE>
+Box of Mystery - In Development
+</TITLE>
+
+<HEAD>
+
+<meta name="viewport", initial-scale=1">
+
+<style>
+
+table.linksMenu a { color:yellow;font-size:36px;font-family:"Georgia" }
+table.linksMenu a:link { color:blue }
+table.linksMenu a:visited { color:blue }
+table.linksMenu a:hover { color:magenta }
+table.MyStuff a:link { color:blue; }
+table.MyStuff a:visited { color:blue }
+table.MyStuff a:hover { color:magenta; }
+table.MyStuff h2 { color:black;font-size:36px;margin-top:0 }
+table.MyStuff h3 { color:black;font-size:24px;margin-top:0 }
+table.MyStuff h4 { color:black;font-size:12px;margin-top:0 }
+
+
+
+body, html {
+  height = 100%
+  margin: 0;
+  min-width:840px;
+   _width: expression( document.body.clientWidth > 840 ? "840px" : "auto" );
+}
+
+.container {
+  width: 840px;
+  min-height: 1080px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.bg {   
+    width = 100% ;
+    height = 100% ;
+    background-color: #d3fafd ; 
+     background-image: url(../images/bodyGlow.png), url(../images/bodyCity2.png), url(../images/bodyGradient4.png), url(../images/Amazing5.jpg);
+      background-repeat: no-repeat, no-repeat, no-repeat,
+      no-repeat;
+      background-position: top center, bottom center, 
+      top center, top center;
+      background-size: 940px 106px, 940px 344px, 940px 100%, cover;
+      background-attachment: scroll, fixed, fixed, fixed;
+    
+}
+
+@media screen and (max-width: 600px) {
+ .bg { background-color: #d3fafd; } 
+ .container { width: 840px; }
+}
+ 
+ 
+@media screen and (min-width: 600px) { 
+     .container { width: 100%; }
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+</style> 
+
+</HEAD>
+
+<BODY>
+<div class="bg"> 
+<div class="container">
+
+
+<CENTER>
+
+<TABLE BORDER=0 class="linksMenu" cellpadding=15>
+<TR>
+<TD><a href="../"><IMG SRC="../images/BOMlogo.png" width=100 height=50></TD>
+<TD><a href="../about/">About</TD>
+<TD><a href="../games/">Games</TD>
+<TD><a href="../cartoons/">Cartoons</TD>
+<TD><a href="../misc/">Misc</TD>
+<TD><a href="../contact/">Contact</TD>
+</TR>
+</TABLE>
+
+<TABLE BORDER=0 width="820" cellpadding="10" class="MyStuff"><TR><TD>
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<HR>
+</TD></TR></TABLE>
+
+<P><H2><B><U>The Development Pit</H2></B></U></P>
+<P>I really hate starting things that never get finished, but even moreso, I hate leaving unfinished projects hidden in my dev folders where no one can ever see them. I'm in that phase where parenthood, work, and personal health are taking their toll on me and I can't commit to months of personal dev time anymore. So I think it's worthwhile to at least keep a record of what didn't get finished, so I can at least share the cool stuff that did.
+
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<P><H3><U><B>Do-Gooders</U></B></H3>
+<P><IMG SRC="images/DG_Screenshot1.png">
+<P>I spent a lot of time working on this one, and the game is fully playable in "Placeholder Mode". This original game was going to be a superhero-themed point-n-click adventure, set in a world where everyone has superpowers, being a superhero is redundant, and you play as that one weirdo who still stands on rooftops in a costume. I really wish I could've seen this one through, but parenthood aside, Unity is one of the worst engines to build an adventure game in. Every time I had a chance to work on it, Unity would update, and I'd lose weeks debugging all the code that got messed up. I spent more time debugging than devving. I also admit my 3D modeling skills are incredibly subpar, and working on this after 11pm every night, I delivered some really tired renders. This version of the playable game includes a mostly finished first chapter with a couple action sequences. Most of the graphics are just doodles, and all the existing music is just unlicenses placeholders I put in there for fun. But the whole first chapter in the city looks close to the intended final product. There's some continuity issues with the story after Chapter 1, but the rest of the game still functions as a first draft of the story. I'll leave a downloadable link for the game below.
+<P><IMG SRC="images/DG_Progress2020.png">
+<P><A HREF="games/DoGooders/DoGooders_UnfinishedV2.zip">Download "Do-Gooders Buggy Placeholder Edition" here.</A>
+</TD></TR></TABLE>
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<P><H3><U><B>A Choose-Your-Own-Adventure Fan-Fiction</U></B></H3>
+<P>You'll probably see this one very soon. After my daughter was born, I couldn't get on my desktop for months. So at night, I started writing an experimental text adventure on my phone based on one of my favourite book series. You probably heard of it, so I won't ruin the surprise. But it will be something you can play on your phone when you're in the washroom or riding the bus.
+</TD></TR></TABLE>
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<P><H3><U><B>A Monster Thingie</U></B></H3>
+<P>This one's way early in development, but I programmed one room just to test it out and I'm eager to start on more. It's a comedy based on famous movie monsters. One of my inspirations for it is "Maniac Mansion", so I might delve into pixel-art for it.
+</TD></TR></TABLE>
+
+
+</div>
+</BODY>
+
+<FOOT>
+</FOOT>
+
+</HTML>

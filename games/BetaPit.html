@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<HTML>
+
+<TITLE>
+Box of Mystery - The Beta Pit
+</TITLE>
+
+<HEAD>
+
+<meta name="viewport", initial-scale=1">
+
+<style>
+
+table.linksMenu a { color:yellow;font-size:36px;font-family:"Georgia" }
+table.linksMenu a:link { color:blue }
+table.linksMenu a:visited { color:blue }
+table.linksMenu a:hover { color:magenta }
+table.MyStuff a:link { color:blue; }
+table.MyStuff a:visited { color:blue }
+table.MyStuff a:hover { color:magenta; }
+table.MyStuff h2 { color:black;font-size:36px;margin-top:0 }
+table.MyStuff h3 { color:black;font-size:24px;margin-top:0 }
+table.MyStuff h4 { color:black;font-size:12px;margin-top:0 }
+
+
+
+body, html {
+  height = 100%
+  margin: 0;
+  min-width:840px;
+   _width: expression( document.body.clientWidth > 840 ? "840px" : "auto" );
+}
+
+.container {
+  width: 840px;
+  min-height: 1080px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.bg {   
+    width = 100% ;
+    height = 100% ;
+    background-color: #d3fafd ; 
+     background-image: url(../images/bodyGlow.png), url(../images/bodyCity2.png), url(../images/bodyGradient4.png), url(../images/Amazing5.jpg);
+      background-repeat: no-repeat, no-repeat, no-repeat,
+      no-repeat;
+      background-position: top center, bottom center, 
+      top center, top center;
+      background-size: 940px 106px, 940px 344px, 940px 100%, cover;
+      background-attachment: scroll, fixed, fixed, fixed;
+    
+}
+
+@media screen and (max-width: 600px) {
+ .bg { background-color: #d3fafd; } 
+ .container { width: 840px; }
+}
+ 
+ 
+@media screen and (min-width: 600px) { 
+     .container { width: 100%; }
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+</style> 
+
+</HEAD>
+
+<BODY>
+<div class="bg"> 
+<div class="container">
+
+
+<CENTER>
+
+<TABLE BORDER=0 class="linksMenu" cellpadding=15>
+<TR>
+<TD><a href="../"><IMG SRC="../images/BOMlogo.png" width=100 height=50></TD>
+<TD><a href="../about/">About</TD>
+<TD><a href="../games/">Games</TD>
+<TD><a href="../cartoons/">Cartoons</TD>
+<TD><a href="../misc/">Misc</TD>
+<TD><a href="../contact/">Contact</TD>
+</TR>
+</TABLE>
+
+<TABLE BORDER=0 width="820" cellpadding="10" class="MyStuff"><TR><TD>
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<HR>
+</TD></TR></TABLE>
+
+<P><H2><B><U>The Beta Pit</H2></B></U></P>
+<P>I really hate starting things that never get finished, but even moreso, I hate leaving unfinished projects hidden in my dev folders where no one can ever see them. I'm in that phase where parenthood, work, and personal health are taking their toll on me and I can't commit to months of gamedev anymore. So I think it's worthwhile to at least keep a record of what didn't get finished, so I can at least share the cool stuff that did.
+
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<P><H3><U><B>Do-Gooders / SkyWatch One</U></B></H3>
+<P><IMG SRC="images/DG_Screenshot1.png">
+<P>I spent a lot of time working on this one, and the game is fully playable in "Placeholder Mode". This original game was going to be a superhero-themed point-n-click adventure, set in a world with superhero fatigue, where you play as that one weirdo who still stands on rooftops in a costume. I really wish I could've seen this one through, but parenthood aside, Unity is one of the worst engines to build an adventure game in. Every time I had a chance to work on it, Unity would update, and I'd lose weeks debugging all the code that got messed up. I spent more time debugging this than any other game. I also admit my 3D modeling skills are incredibly subpar, and working on this after 11pm every night, I delivered some really tired renders. This version of the playable game includes a mostly finished first chapter with a couple action sequences. Most of the graphics are just doodles, and all the existing music is just unlicensed placeholders I put in for fun. But the whole first chapter in the city looks close to the intended final product. There's some continuity issues with the story after Chapter 1, but the rest of the game still functions as a first draft of the story. I'll leave a downloadable link for the beta build of the game below.
+<P><IMG SRC="images/DG_Progress2020.png">
+<P><A HREF="games/dogooders/Skywatch_BetaBuildv02.zip">Download "Do-Gooders Buggy Placeholder Edition" here.</A>
+<P><IMG SRC="images/FriendzoneWave.jpg" WIDTH=30% HEIGHT=30%><IMG SRC="images/MeganDuke.jpg" WIDTH=30% HEIGHT=30%><IMG SRC="images/Lemur_Poster.jpg" WIDTH=30% HEIGHT=30%>
+<P>I'll add more dev art here at a later time.
+</TD></TR></TABLE>
+
+<TABLE BORDER=0 width="820"><TR><TD>
+<P><H3><U><B>Fuzzy Fantasy (BETA)</U></B></H3>
+<P><IMG SRC="images/BeaRPG_Honey.png" width=40% height=40%> <IMG SRC="images/BeaRPGSquirrels.png" width=40% height=40%>
+<P>Last year, I tried to get back on the devtrain by trying my hand at RPG Maker (because that engine already comes with lots of finished assets). Inspired by the 1988 film, "The Bear" I wanted to make an RPG centered around a grizzly bear and cub fighting their way through the woods. What I quickly discovered is that even though I love playing turn-based RPGs, I hate doing the math for stats and combat encounters. After the first section of the game where the bears fight a gang of squirrels, I lost interest in doing a combat RPG and the rest of the game is just some goofy uneventful encounters with humans and other bears which builds up to an anticlimatic ending. There's no strategy involved. Just walk around and do bear stuff for about 20 minutes of silly content. If you find the cub's mom, consider your quest complete.
+<P><A HREF="games/fuzzyfantasy/BeaRPG.zip">Download "Fuzzy Fantasy" here</A>
+</TD></TR></TABLE>
+
+
+</div>
+</BODY>
+
+<FOOT>
+</FOOT>
+
+</HTML>
